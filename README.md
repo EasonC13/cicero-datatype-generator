@@ -10,4 +10,15 @@ This can be achieve by a combination of approaches such as:
   * lookup of data in a list of existing data models from sources such as the Accord Project library at https://templates.accordproject.org/
   
 ## Usage 
-extractDataTypes.py --outputfile optionalPathToOuputConcertoFile.cto pathToInputCiceroFile.md
+
+```
+python extractDataTypes.py --outputfile optionalPathToOuputConcertoFile.cto pathToInputCiceroFile.md
+```
+
+You can try the example file using the following command:
+
+```
+python extractDataTypes.py --outputfile exampleOuputConcertoFile.cto exampleInputCiceroFile.md
+```
+
+Find more example files at [Accord Project Template Library](https://templates.accordproject.org/)
